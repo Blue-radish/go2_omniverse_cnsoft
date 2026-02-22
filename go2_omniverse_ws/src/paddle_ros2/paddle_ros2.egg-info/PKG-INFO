@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: paddle_ros2
+Version: 0.1.0
+Summary: ROS2 integration for PaddleOCR + PaddleDetection
+Maintainer: ziyueg@unitree
+Maintainer-email: ziyue.gao@foxmail.com
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

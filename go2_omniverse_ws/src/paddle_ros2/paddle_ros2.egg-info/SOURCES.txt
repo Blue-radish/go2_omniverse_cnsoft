@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+paddle_ros2/__init__.py
+paddle_ros2/ocr_node.py
+paddle_ros2.egg-info/PKG-INFO
+paddle_ros2.egg-info/SOURCES.txt
+paddle_ros2.egg-info/dependency_links.txt
+paddle_ros2.egg-info/entry_points.txt
+paddle_ros2.egg-info/requires.txt
+paddle_ros2.egg-info/top_level.txt
+paddle_ros2.egg-info/zip-safe
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

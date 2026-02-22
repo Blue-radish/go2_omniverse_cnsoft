@@ -1,0 +1,6 @@
+[console_scripts]
+ernie_llm_converter = paddle_ros2.ernie_llm_converter:main
+go2_motion_demo = paddle_ros2.go2_motion_demo:main
+ocr_node = paddle_ros2.ocr_node:main
+pseudo_llm_converter = paddle_ros2.pseudo_llm_converter:main
+

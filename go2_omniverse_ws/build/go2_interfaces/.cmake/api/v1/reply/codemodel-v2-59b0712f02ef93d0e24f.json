@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8ffc3e3d33f84bee8678.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "go2_interfaces__py",
+					"jsonFile" : "directory-go2_interfaces__py-edf4fe79d1041e2382eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces/go2_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "go2_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_go2_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_go2_interfaces_egg-2ca8a002b13b48714b3d.json",
+					"name" : "ament_cmake_python_build_go2_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_go2_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_go2_interfaces-6c32157cdd5b2c5b3953.json",
+					"name" : "ament_cmake_python_copy_go2_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces-43dce91257de56178549.json",
+					"name" : "go2_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__cpp-e95b47b88cd70337ee53.json",
+					"name" : "go2_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "go2_interfaces__py::@cdc792b2917610388b2f",
+					"jsonFile" : "target-go2_interfaces__py-43f171b54cbcaf3b4ca3.json",
+					"name" : "go2_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_generator_c-17c1ce9cce335c4788f4.json",
+					"name" : "go2_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_generator_py-cf70c62dd4d4c670a94a.json",
+					"name" : "go2_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_c-e0b2fd1367c8375ef0dc.json",
+					"name" : "go2_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_c__pyext-cfc72d6582a3465b5b2d.json",
+					"name" : "go2_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_cpp-d89e3a43c6c7b232e1a8.json",
+					"name" : "go2_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_fastrtps_c-cb6210b166760210335d.json",
+					"name" : "go2_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_fastrtps_c__pyext-aa44ab4f31681d6b94a8.json",
+					"name" : "go2_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_fastrtps_cpp-1dbf60d863a0b2c861f4.json",
+					"name" : "go2_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_introspection_c-1529e1bb044c1bcc9120.json",
+					"name" : "go2_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_introspection_c__pyext-8656a29bc9bc42a1753f.json",
+					"name" : "go2_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces__rosidl_typesupport_introspection_cpp-59c492d380a80f2dea28.json",
+					"name" : "go2_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_interfaces_uninstall-7efed0b93f12ee94bba1.json",
+					"name" : "go2_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2dad0ba58fa3b2ec15d0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces",
+		"source" : "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/src/go2_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

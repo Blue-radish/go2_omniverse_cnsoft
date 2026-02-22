@@ -1,0 +1,10 @@
+{
+  "package_name": "go2_interfaces",
+  "non_idl_tuples": [
+    "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/src/go2_interfaces:msg/Go2Cmd.msg",
+    "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/src/go2_interfaces:msg/Go2State.msg",
+    "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/src/go2_interfaces:msg/Go2Move.msg",
+    "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/src/go2_interfaces:msg/Go2RpyCmd.msg",
+    "/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/src/go2_interfaces:msg/IMU.msg"
+  ]
+}

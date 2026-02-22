@@ -1,0 +1,2 @@
+[console_scripts]
+ocr_node = paddle_ros2.ocr_node:main

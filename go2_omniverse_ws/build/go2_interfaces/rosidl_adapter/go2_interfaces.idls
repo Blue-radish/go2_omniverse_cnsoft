@@ -1,0 +1,5 @@
+/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:msg/Go2Cmd.idl
+/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:msg/Go2State.idl
+/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:msg/Go2Move.idl
+/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:msg/Go2RpyCmd.idl
+/home/mygo/go2_omniverse_cnsoft/go2_omniverse_ws/build/go2_interfaces/rosidl_adapter/go2_interfaces:msg/IMU.idl
