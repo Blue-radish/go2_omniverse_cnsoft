@@ -1,3 +1,25 @@
+# 第十四届“中国软件杯”大学生软件设计大赛 A10
+## 启动顺序
+启动 OCR
+```
+./run_ocr_node.sh
+```
+启动 LLM
+```
+./run_llm_node.sh
+```
+启动地图和机器狗模型
+```
+./run_sim.sh
+```
+启动导航
+```
+python ./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/mian.py
+```
+## 代码位置
+俺的代码主要在```./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2```路径下，其中```main.py```依赖的工具在```./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/tools```
+LLM的API填在```./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/ernie_llm_converter.py```
+
 ![Digital Twins](https://github.com/abizovnuralem/go2_ros2_sdk/assets/33475993/ddbe30ab-21d1-46fd-b44b-198efba92771)
 
 

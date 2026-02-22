@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 load_dotenv()   
                                            # ~/.ernie.env
 client = OpenAI(
-    api_key="ceb6886cd016413b2f0f9172dba3d625f497bcb0",
+    api_key="",
     base_url="https://aistudio.baidu.com/llm/lmapi/v3",
 )
 
