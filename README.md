@@ -1,26 +1,115 @@
 # 第十四届“中国软件杯”大学生软件设计大赛 A10
-## 启动顺序
-启动 OCR
+
+## 📌 项目简介
+
+针对宇树 Go2 机器狗，开发了一套基于 **NVIDIA Isaac Sim (Orbit)**、**ROS2 Humble**、**PPO 强化学习算法** 的运动控制系统，实现复杂地形下的自主导航与任务执行。
+
+---
+
+## 📁 项目结构
+
+以下为仓库的主要目录结构：
+
 ```
+go2_omniverse_cnsoft/
+├── IsaacSim-ros_workspaces/     # Isaac Sim 与 ROS2 的桥接工作区
+├── Isaac_sim/                   # Isaac Sim 相关资源
+├── envs/                        # 自定义环境（office / warehouse）
+├── go2_omniverse_assets/        # 材质、贴图等资源
+│   └── textures/
+├── go2_omniverse_ws/            # ROS2 工作区（核心代码）
+│   └── src/paddle_ros2/paddle_ros2/
+│       ├── main.py              # 导航主程序（你的核心代码）
+│       ├── tools/               # 工具脚本
+│       └── ernie_llm_converter.py  # LLM API 配置
+├── isaaclab_transfer/           # IsaacLab 相关迁移文件
+├── logs/rsl_rl/                 # 强化学习训练日志
+├── old_orbit/                   # 旧版本 Orbit 相关内容
+├── robots/                      # 机器人模型
+├── cli_args.py
+├── main.py
+├── run_sim.sh                   # 启动仿真（Go2）
+├── run_sim_g1.sh                # 启动仿真（G1）
+├── run_llm_node.sh              # 启动 LLM 节点
+├── run_ocr_node.sh              # 启动 OCR 节点
+├── run_go2_motion_demo.sh
+└── LICENSE
+```
+
+---
+
+## 🧩 启动顺序（推荐）
+
+### 启动 OCR 模块
+```bash
 ./run_ocr_node.sh
 ```
-启动 LLM
-```
+
+### 启动 LLM 模块
+```bash
 ./run_llm_node.sh
 ```
-启动地图和机器狗模型
-```
+
+### 启动仿真（地图 + 机器狗模型）
+Go2：
+```bash
 ./run_sim.sh
 ```
-启动导航
-```
-python ./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/mian.py
-```
-## 代码位置
-俺的代码主要在```./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2```路径下，其中```main.py```依赖的工具在```./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/tools```
-LLM的API填在```./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/ernie_llm_converter.py```
 
-![Digital Twins](https://github.com/abizovnuralem/go2_ros2_sdk/assets/33475993/ddbe30ab-21d1-46fd-b44b-198efba92771)
+G1：
+```bash
+./run_sim_g1.sh
+```
+
+### 启动导航模块
+```bash
+python ./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/main.py
+```
+
+---
+
+## 🧠 核心代码位置
+
+导航主要逻辑位于：
+
+```
+./go2_omniverse_cnsoft/go2_omniverse_ws/src/paddle_ros2/paddle_ros2/
+```
+
+其中：
+
+- `main.py` —— 导航主程序  
+- `tools/` —— 工具脚本  
+- `ernie_llm_converter.py` —— LLM API 配置  
+
+---
+
+## 🛠️ 安装步骤（简化版）
+
+1. 安装 Isaac Sim 2023.1.1  
+2. 安装 ROS2 Humble  
+3. 克隆 IsaacLab 0.3.1  
+4. 配置环境变量：
+```bash
+export ISAACSIM_PATH="${HOME}/.local/share/ov/pkg/isaac-sim-2023.1.1"
+export ISAACSIM_PYTHON_EXE="${ISAACSIM_PATH}/python.sh"
+```
+5. 安装 Orbit：
+```bash
+./orbit.sh --conda
+conda activate orbit
+sudo apt install cmake build-essential
+./orbit.sh --install
+./orbit.sh --extra rsl_rl
+```
+6. 验证安装：
+```bash
+python source/standalone/tutorials/00_sim/create_empty.py
+```
+7. 克隆本仓库：
+```bash
+git clone https://github.com/Blue-radish/go2_omniverse_cnsoft --recurse-submodules -j8 --depth=1
+```
 
 
 # Welcome to the Unitree Go2/G1 Digital Twins Project!
